@@ -16,8 +16,8 @@
         <target device="android">true</target>
         <target device="blackberry">false</target>
     </deployment-targets>
-    <sdk-version>3.2.0.GA</sdk-version>
-    <id>com.chariti.mobileBasic</id>
+    <sdk-version>3.2.2.GA</sdk-version>
+    <id>ferrari.anthony.studentOrg</id>
     <name>ChariTi Basic</name>
     <version>1.2.1</version>
     <publisher>Matthew Congrove</publisher>
