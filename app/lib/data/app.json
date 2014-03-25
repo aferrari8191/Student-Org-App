@@ -37,10 +37,26 @@
 			"tabletSupport": false
 		},
 		{
-			"title": "Another Menu Option",
+			"title": "Calendar",
 			"heading": "This becomes CONFIG.heading in the text.js controller.",
 			"text": "This becomes CONFIG.text in the text.js controller.",
-			"type": "text",
+			"type": "calendar",
+			"image": "chariti",
+			"tabletSupport": false
+		},
+		{
+			"title": "Alumni",
+			"heading": "This becomes CONFIG.heading in the text.js controller.",
+			"text": "This becomes CONFIG.text in the text.js controller.",
+			"type": "alumni",
+			"image": "chariti",
+			"tabletSupport": false
+		},
+		{
+			"title": "News & Events",
+			"heading": "This becomes CONFIG.heading in the text.js controller.",
+			"text": "This becomes CONFIG.text in the text.js controller.",
+			"type": "newsevents",
 			"image": "chariti",
 			"tabletSupport": false
 		}
