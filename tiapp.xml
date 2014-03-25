@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">KbWJllelez6zf8qQ0mJCCNmJKghRoFY4</property>
+    <property name="acs-oauth-key-production" type="string">VZXyze8IIw4uGFGfL5D44vNfjbsRkXfK</property>
+    <property name="acs-api-key-production" type="string">kz9cS2OEMUFXXst8aPdfFa9I34SRTBTa</property>
+    <property name="acs-oauth-secret-development" type="string">7Ahwwb0CyGo87mQk0GlHhwaOgOJwMJNW</property>
+    <property name="acs-oauth-key-development" type="string">JyoHaOimupcogj1XxYp2pCZBYbPyc7Hr</property>
+    <property name="acs-api-key-development" type="string">PtZ6CfUAL92288zMc3FrP5Qkxa68LJVD</property>
     <!-- 
     <property name="acs-oauth-secret-production" type="string"></property>
     <property name="acs-oauth-key-production" type="string"></property>
@@ -16,14 +22,14 @@
         <target device="android">true</target>
         <target device="blackberry">false</target>
     </deployment-targets>
-    <sdk-version>3.2.0.GA</sdk-version>
+    <sdk-version>3.2.2.GA</sdk-version>
     <id>ferrari.anthony.studentOrg</id>
     <name>ChariTi Basic</name>
     <version>1.2.1</version>
-    <publisher>Matthew Congrove</publisher>
+    <publisher>Anthony &amp; Colin</publisher>
     <url>http://chariti.mobi</url>
-    <description>ChariTi is a framework built to allow charities to quickly and easily create mobile applications.</description>
-    <copyright>2013 by Matthew Congrove</copyright>
+    <description>Student Organization App is an essential way for student org members to connect and coordinate together. </description>
+    <copyright>2013 by Anthony &amp; Colin</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
