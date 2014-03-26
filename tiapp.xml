@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
+    <!--
+    	NEED TO CREATE NEW APP, paste over these property names with names found in new app... should be good
+    	(needed to be done for cloud services)   	
+    -->
     <property name="acs-oauth-secret-production" type="string">KbWJllelez6zf8qQ0mJCCNmJKghRoFY4</property>
     <property name="acs-oauth-key-production" type="string">VZXyze8IIw4uGFGfL5D44vNfjbsRkXfK</property>
     <property name="acs-api-key-production" type="string">kz9cS2OEMUFXXst8aPdfFa9I34SRTBTa</property>
