@@ -73,7 +73,7 @@ windowFunctions['Check Permission of ACL'] = function (evt) {
                 ]);
                 error(e);
             }
-        })
+        });
     }
 
     win.addEventListener('open', function () {

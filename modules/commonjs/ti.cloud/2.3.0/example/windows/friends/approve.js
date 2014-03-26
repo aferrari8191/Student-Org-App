@@ -37,33 +37,7 @@ windowFunctions['Approve Friends'] = function (evt) {
     win.add(table);
 
     function getRequests() {
-        Cloud.Friends.requests(function (e) {
-            if (e.success) {
-	            if (e.friend_requests.length == 0) {
-		            table.setData([
-			            { title: 'No friend requests' }
-		            ]);
-	            } else {
-	                var data = [];
-		            data.push({ title: 'Approve Friend Requests!' });
-	                for (var i = 0, l = e.friend_requests.length; i < l; i++) {
-	                    var user = e.friend_requests[i].user;
-	                    var row = Ti.UI.createTableViewRow({
-	                        title: user.first_name + ' ' + user.last_name,
-	                        id: user.id
-	                    });
-	                    data.push(row);
-	                }
-	                table.setData(data);
-                }
-            }
-            else {
-                table.setData([
-                    { title: (e.error && e.message) || e }
-                ]);
-                error(e);
-            }
-        })
+        
     }
 
     win.addEventListener('open', getRequests);
