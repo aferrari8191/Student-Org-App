@@ -60,5 +60,29 @@
 			"image": "news",
 			"tabletSupport": false
 		}
+		{
+			"title": "Members",
+			"heading": "This becomes CONFIG.heading in the text.js controller.",
+			"text": "This becomes CONFIG.text in the text.js controller.",
+			"type": "Members",
+			"image": "social",
+			"tabletSupport": false
+		},
+		{
+			"title": "Payment",
+			"heading": "This becomes CONFIG.heading in the text.js controller.",
+			"text": "This becomes CONFIG.text in the text.js controller.",
+			"type": "Payment",
+			"image": "social",
+			"tabletSupport": false
+		},
+		{
+			"title": "Contact",
+			"heading": "This becomes CONFIG.heading in the text.js controller.",
+			"text": "This becomes CONFIG.text in the text.js controller.",
+			"type": "Contact",
+			"image": "social",
+			"tabletSupport": false
+		},
 	]
 }
