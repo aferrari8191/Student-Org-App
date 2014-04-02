@@ -56,7 +56,7 @@
 			"title": "Members",
 			"heading": "This becomes CONFIG.heading in the text.js controller.",
 			"text": "This becomes CONFIG.text in the text.js controller.",
-			"type": "Members",
+			"type": "members",
 			"image": "social",
 			"tabletSupport": false
 		},
