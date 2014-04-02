@@ -29,37 +29,29 @@
 	"tabs": [
 		{
 			"menuHeader": "My Student Organization",
-			"title": "Text",
-			"heading": "Open Source Mobile Framework for Charities",
-			"text": "The ChariTi framework is built to allow the often-times small team of staffers at charities around the world to build a mobile application. This is achieved by removing the requirement for a highly-knowledgeable technical staff or costly app development firm and instead allowing app creation and management by anyone from a marketing director to an intern.",
-			"type": "text",
-			"image": "chariti",
-			"tabletSupport": false
-		},
-		{
 			"title": "Calendar",
-			"heading": "This becomes CONFIG.heading in the text.js controller.",
-			"text": "This becomes CONFIG.text in the text.js controller.",
+			"heading": "Calendar Page Title.",
+			"text": "Calendar guts go here",
 			"type": "calendar",
 			"image": "event",
 			"tabletSupport": false
 		},
 		{
 			"title": "Alumni",
-			"heading": "This becomes CONFIG.heading in the text.js controller.",
-			"text": "This becomes CONFIG.text in the text.js controller.",
+			"heading": "Alumni Page Title.",
+			"text": "Alumni guts go here",
 			"type": "alumni",
 			"image": "social",
 			"tabletSupport": false
 		},
 		{
-			"title": "News & Events",
-			"heading": "This becomes CONFIG.heading in the text.js controller.",
-			"text": "This becomes CONFIG.text in the text.js controller.",
+			"title": "News",
+			"heading": "News & Events Page Title.",
+			"text": "News/Events guts go here.",
 			"type": "newsevents",
 			"image": "news",
 			"tabletSupport": false
-		}
+		},
 		{
 			"title": "Members",
 			"heading": "This becomes CONFIG.heading in the text.js controller.",
@@ -83,6 +75,6 @@
 			"type": "Contact",
 			"image": "social",
 			"tabletSupport": false
-		},
+		}
 	]
 }
