@@ -54,24 +54,24 @@
 		},
 		{
 			"title": "Members",
-			"heading": "This becomes CONFIG.heading in the text.js controller.",
-			"text": "This becomes CONFIG.text in the text.js controller.",
+			"heading": "Members",
+			"text": "Member guts go here",
 			"type": "members",
 			"image": "social",
 			"tabletSupport": false
 		},
 		{
 			"title": "Payment",
-			"heading": "This becomes CONFIG.heading in the text.js controller.",
-			"text": "This becomes CONFIG.text in the text.js controller.",
+			"heading": "Payment Options",
+			"text": "Payment guts go here",
 			"type": "Payment",
 			"image": "social",
 			"tabletSupport": false
 		},
 		{
 			"title": "Contact",
-			"heading": "This becomes CONFIG.heading in the text.js controller.",
-			"text": "This becomes CONFIG.text in the text.js controller.",
+			"heading": "Contact Information",
+			"text": "Contact guts go here",
 			"type": "Contact",
 			"image": "social",
 			"tabletSupport": false
