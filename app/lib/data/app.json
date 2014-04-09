@@ -53,7 +53,7 @@
 			"tabletSupport": false
 		},
 		{
-			"title": "Members",
+			"title": "members2",
 			"heading": "Members",
 			"text": "Member guts go here",
 			"type": "members",
@@ -61,15 +61,15 @@
 			"tabletSupport": false
 		},
 		{
-			"title": "Payment",
+			"title": "payment2",
 			"heading": "Payment Options",
-			"text": "Payment guts go here",
-			"type": "Payment",
+			"text": "payment guts go here",
+			"type": "payment",
 			"image": "social",
 			"tabletSupport": false
 		},
 		{
-			"title": "Contact",
+			"title": "contact2",
 			"heading": "Contact Information",
 			"text": "Contact guts go here",
 			"type": "Contact",
