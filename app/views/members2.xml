@@ -1,5 +1,5 @@
 <Alloy>
-	<View id="Wrapper" name="Alumni">
+	<View id="Wrapper" name="Members">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
 		
 		<ScrollView id="container">

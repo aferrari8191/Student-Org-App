@@ -30,3 +30,9 @@
 	},
 	color: "#000"
 }
+"#emailbtn": {
+	backgroundColor: "#0380Ba",
+	width: "40dp",
+	top: "10dp",
+	height: "20dp"
+}
