@@ -204,25 +204,33 @@ $.setIndex = function(_index) {
 function moreEvent(_event) {
 	if($.moreOpen) {
 
-		var animation = Titanium.UI.createAnimation({
-			height: "60dp",
-			duration: 100,
-			curve: Titanium.UI.ANIMATION_CURVE_EASE_IN			
-		});
-
-		$.Wrapper.animate(animation);		
-
+		if (OS_ANDROID) {
+			$.Wrapper.height = "60dp";
+		} else {
+			var animation = Titanium.UI.createAnimation({
+				height: "60dp",
+				duration: 100,
+				curve: Titanium.UI.ANIMATION_CURVE_EASE_IN			
+			});
+	
+			$.Wrapper.animate(animation);	
+		}
+			
 		$.moreOpen = false;
 	} else {
 		$.moreOpen = true;
 
-		var animation = Titanium.UI.createAnimation({
-			height: Ti.UI.SIZE,
-			duration: 100,
-			curve: Titanium.UI.ANIMATION_CURVE_EASE_IN			
-		});
-
-		$.Wrapper.animate(animation);
+		if (OS_ANDROID) {
+			$.Wrapper.height = Ti.UI.SIZE;
+		} else {
+			var animation = Titanium.UI.createAnimation({
+				height: Ti.UI.SIZE,
+				duration: 100,
+				curve: Titanium.UI.ANIMATION_CURVE_EASE_IN			
+			});
+	
+			$.Wrapper.animate(animation);
+		}
 	}
 };
 
