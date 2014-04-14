@@ -4,6 +4,12 @@
 		
 		<ScrollView id="container">
 			<Label id="heading" />
+		
+			<Label id="ccn" left="10dp">Credit Card Number</Label>
+			<Label id="scn" left="10dp">Security Code</Label>
+			<Button id="submit">Submit Payment</Button>
+			
+			
 			
 			<Label id="text" />
 			

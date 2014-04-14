@@ -12,22 +12,22 @@
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
 				<Label left="32dp" color="white">Logan Peterson</Label>
-				<ImageView image="/images/portraitlogan.jpg" right="0dp"/>
+				<ImageView image="/images/portraitlogan.jpg" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
 				<Label left="32dp" color="white">Matt Cash</Label>
-				<ImageView image="/images/portraitmatt.png" right="0dp"/>
+				<ImageView image="/images/portraitmatt.png" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
 				<Label left="32dp" color="white">Scott Nelson</Label>
-				<ImageView image="/images/portraitscott.png" right="0dp"/>
+				<ImageView image="/images/portraitscott.png" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
 				<Label left="32dp"color="white">Sean Mackman</Label>
-				<ImageView image="/images/portraitsean.png" right="0dp"/>
+				<ImageView image="/images/portraitsean.png" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 		</ScrollView>

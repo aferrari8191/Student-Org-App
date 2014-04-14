@@ -11,42 +11,42 @@
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
 				<Label left="32dp" color="white">Member 1 Example</Label>
-				<ImageView image="" right="0dp"/>
+				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
 				<Label left="32dp" color="white">Member 2 Example</Label>
-				<ImageView image="" right="0dp"/>
+				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
 				<Label left="32dp" color="white">Member 3 Example</Label>
-				<ImageView image="" right="0dp"/>
+				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
 				<Label left="32dp" color="white">Member 4 Example</Label>
-				<ImageView image="" right="0dp"/>
+				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
 				<Label left="32dp" color="white">Member 5 Example</Label>
-				<ImageView image="" right="0dp"/>
+				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
 				<Label left="32dp" color="white">Member 6 Example</Label>
-				<ImageView image="" right="0dp"/>
+				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
 				<Label left="32dp" color="white">Member 7 Example</Label>
-				<ImageView image="" right="0dp"/>
+				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
 				<Label left="32dp" color="white">Member 8 Example</Label>
-				<ImageView image="" right="0dp"/>
+				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			
