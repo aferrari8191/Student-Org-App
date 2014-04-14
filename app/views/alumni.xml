@@ -4,7 +4,6 @@
 		
 		<ScrollView id="container">
 			<Label id="heading" />
-			
 			<Label id="text" />
 			<View backgroundColor="black" width="Titanium.UI.FILL" height="30dp">
 				<Label left="32dp">Alumni</Label>

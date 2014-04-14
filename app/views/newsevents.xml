@@ -2,11 +2,23 @@
 	<View id="Wrapper" name="Newsevents">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
 		
-		<ScrollView id="container">
+		<View id="container">
 			<Label id="heading" />
-			
 			<Label id="text" />
-			
-		</ScrollView>
+			<View backgroundColor="#0380BA" width="94%" height="94%" bottom="75dp">
+				<View backgroundColor="#388E8E" width="31%" height="50dp" top="1dp" left="1dp">
+					<Label left="32dp" color="black" verticalAlign="center">Recent</Label>
+				</View>
+				<View backgroundColor="#ADEAEA" width="31%" height="50dp" top="1dp">
+					<Label left="32dp" color="black" textAlign="center" verticalAlign="center">Popular</Label>
+				</View>
+				<View backgroundColor="#ADEAEA" width="31%" height="50dp" top="1dp" right="1dp">
+					<Label left="32dp" color="black" zIndex="1">Critical</Label>
+				</View>
+				<ScrollView backgroundColor="white" width="95%" height="95%" top="61dp" bottom="60dp">
+					
+				</ScrollView>
+			</View>
+		</View>
 	</View>
 </Alloy>
