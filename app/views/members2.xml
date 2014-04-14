@@ -5,6 +5,51 @@
 		<ScrollView id="container">
 			<Label id="heading" />
 			
+			<View backgroundColor="black" width="Titanium.UI.FILL" height="30dp">
+				<Label left="32dp">Members</Label>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
+			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
+				<Label left="32dp" color="white">Member 1 Example</Label>
+				<ImageView image="" right="0dp"/>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
+			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
+				<Label left="32dp" color="white">Member 2 Example</Label>
+				<ImageView image="" right="0dp"/>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
+			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
+				<Label left="32dp" color="white">Member 3 Example</Label>
+				<ImageView image="" right="0dp"/>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
+			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
+				<Label left="32dp" color="white">Member 4 Example</Label>
+				<ImageView image="" right="0dp"/>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
+			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
+				<Label left="32dp" color="white">Member 5 Example</Label>
+				<ImageView image="" right="0dp"/>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
+			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
+				<Label left="32dp" color="white">Member 6 Example</Label>
+				<ImageView image="" right="0dp"/>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
+			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
+				<Label left="32dp" color="white">Member 7 Example</Label>
+				<ImageView image="" right="0dp"/>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
+			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
+				<Label left="32dp" color="white">Member 8 Example</Label>
+				<ImageView image="" right="0dp"/>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
+			
 			<Label id="text" />
 			
 		</ScrollView>
