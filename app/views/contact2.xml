@@ -8,6 +8,8 @@
 			<Label id="text" />
 			<Label id="emailtxt">aferrari@uwm.edu</Label>
 			<Button id="emailbtn" label="email">E-mail?</Button>
+			<Label id="phonetxt">262-215-5758</Label>
+			<Label id="officetxt">Office:Union 325</Label>
 		</ScrollView>
 	</View>
 </Alloy>

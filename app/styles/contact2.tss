@@ -32,7 +32,31 @@
 }
 "#emailbtn": {
 	backgroundColor: "#0380Ba",
-	width: "40dp",
+	width: Ti.UI.Fill,
 	top: "10dp",
-	height: "20dp"
+	height: "30dp"
+}
+"#emailtxt": {
+	color: "black",
+	height: Ti.UI.SIZE,
+	font: {
+		fontsize: "14dp",
+		fontfamily: "HelveticaNeue"
+	}
+}
+"#phonetxt": {
+	color: "black",
+	height: Ti.UI.SIZE,
+	font: {
+		fontsize: "14dp",
+		fontfamily: "HelveticaNeue"
+	}
+}
+"#officetxt": {
+	color: "black",
+	height: Ti.UI.SIZE,
+	font: {
+		fontsize: "14dp",
+		fontfamily: "HelveticaNeue"
+	}
 }
