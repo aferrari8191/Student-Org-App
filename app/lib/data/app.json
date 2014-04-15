@@ -38,16 +38,16 @@
 		},
 		{
 			"title": "Alumni",
-			"heading": "Alumni Page Title.",
-			"text": "Alumni guts go here",
+			"heading": "Alumni",
+			"text": "Select an Alumni to learn more",
 			"type": "alumni",
 			"image": "social",
 			"tabletSupport": false
 		},
 		{
 			"title": "News",
-			"heading": "News & Events Page Title.",
-			"text": "News/Events guts go here.",
+			"heading": "News & Events",
+			"text": "Click the tabs to check out different news & events available.",
 			"type": "newsevents",
 			"image": "news",
 			"tabletSupport": false

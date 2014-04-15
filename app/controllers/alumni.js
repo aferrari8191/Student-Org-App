@@ -5,7 +5,7 @@
  * @uses core
  */
 var APP = require("core");
-
+//TODO: let alumni be onClick and bring up details on each w/ view. 
 var CONFIG = arguments[0];
 
 APP.log("debug", "text | " + JSON.stringify(CONFIG));

@@ -16,7 +16,7 @@
 					<Label left="32dp" color="black" zIndex="1">Critical</Label>
 				</View>
 				<ScrollView backgroundColor="white" width="95%" height="95%" top="61dp" bottom="60dp">
-					
+					<Label color="black" zIndex="1">Content will go here.</Label>
 				</ScrollView>
 			</View>
 		</View>
