@@ -70,7 +70,7 @@
 		},
 		{
 			"title": "Payment",
-			"heading": "Payment Options",
+			"heading": "Payment",
 			"text": "Payment guts go here",
 			"type": "payment2",
 			"image": "social",

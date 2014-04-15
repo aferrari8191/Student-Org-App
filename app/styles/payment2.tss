@@ -30,3 +30,25 @@
 	},
 	color: "#000"
 }
+"#submit": {
+	backgroundColor: "#0380Ba",
+	width: Ti.UI.Fill,
+	top: "10dp",
+	height: "35dp"
+}
+"#ccn": {
+	color: "black",
+	height: Ti.UI.SIZE,
+	font: {
+		fontsize: "18dp",
+		fontfamily: "HelveticaNeue"
+	}
+}
+"#scn": {
+	color: "black",
+	height: Ti.UI.SIZE,
+	font: {
+		fontsize: "18dp",
+		fontfamily: "HelveticaNeue"
+	}
+}
