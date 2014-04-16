@@ -7,6 +7,11 @@
 var APP = require("core");
 //TODO: create onClick events for different tabs & news items for newsevents tab
 //TODO: create new views for those different items
+var Cloud = require("ti.cloud");
+
+
+
+// previous stuff
 var CONFIG = arguments[0];
 
 APP.log("debug", "text | " + JSON.stringify(CONFIG));

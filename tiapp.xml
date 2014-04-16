@@ -3,21 +3,20 @@
     <!--
     	NEED TO CREATE NEW APP, paste over these property names with names found in new app... should be good
     	(needed to be done for cloud services)   	
-    -->
+    these are the old keys: 
     <property name="acs-oauth-secret-production" type="string">KbWJllelez6zf8qQ0mJCCNmJKghRoFY4</property>
     <property name="acs-oauth-key-production" type="string">VZXyze8IIw4uGFGfL5D44vNfjbsRkXfK</property>
     <property name="acs-api-key-production" type="string">kz9cS2OEMUFXXst8aPdfFa9I34SRTBTa</property>
     <property name="acs-oauth-secret-development" type="string">7Ahwwb0CyGo87mQk0GlHhwaOgOJwMJNW</property>
     <property name="acs-oauth-key-development" type="string">JyoHaOimupcogj1XxYp2pCZBYbPyc7Hr</property>
     <property name="acs-api-key-development" type="string">PtZ6CfUAL92288zMc3FrP5Qkxa68LJVD</property>
-    <!-- 
-    <property name="acs-oauth-secret-production" type="string"></property>
-    <property name="acs-oauth-key-production" type="string"></property>
-    <property name="acs-api-key-production" type="string"></property>
-    <property name="acs-oauth-secret-development" type="string"></property>
-    <property name="acs-oauth-key-development" type="string"></property>
-    <property name="acs-api-key-development" type="string"></property>	
     -->
+    <property name="acs-oauth-secret-production" type="string">zPWVXNNRyrZicmTf27p1sasxSDYyvUNo</property>
+    <property name="acs-oauth-key-production" type="string">B6KpTstc9CVPUIdEJWkJcZaGPMmP1HUg</property>
+    <property name="acs-api-key-production" type="string">i818fHDjc6ZKJGkhbAYXtQVLxQwKWMM1</property>
+    <property name="acs-oauth-secret-development" type="string">9BRodd4qPoiE0MX4EqobJGFOPMdmJtba</property>
+    <property name="acs-oauth-key-development" type="string">t9k0oTxswiHmXxv6W7O4J8ChyqFy4S0V</property>
+    <property name="acs-api-key-development" type="string">I7DvrmfRM58Biwjn2UcAALwEhJnQSHyN</property>	
     <deployment-targets>
         <target device="tizen">false</target>
         <target device="mobileweb">false</target>

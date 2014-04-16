@@ -5,7 +5,7 @@
 		<View id="container">
 			<Label id="heading" />
 			<Label id="text" />
-			<View backgroundColor="#0380BA" width="94%" height="94%" bottom="75dp">
+			<View backgroundColor="#0380BA" width="94%" height="400dp" bottom="75dp">
 				<View backgroundColor="#388E8E" width="31%" height="50dp" top="1dp" left="1dp">
 					<Label left="32dp" color="black" verticalAlign="center">Recent</Label>
 				</View>
@@ -15,8 +15,13 @@
 				<View backgroundColor="#ADEAEA" width="31%" height="50dp" top="1dp" right="1dp">
 					<Label left="32dp" color="black" zIndex="1">Critical</Label>
 				</View>
-				<ScrollView backgroundColor="white" width="95%" height="95%" top="61dp" bottom="60dp">
-					<Label color="black" zIndex="1">Content will go here.</Label>
+				<ScrollView backgroundColor="white" width="95%" top="61dp" bottom="7dp">
+					<View height="300dp" color="gray">
+						<Label color="black">Content will go here.</Label>
+					</View>
+					<View height="300dp">
+						<Label color="black">Most interesting news!</Label>
+					</View>
 				</ScrollView>
 			</View>
 		</View>
