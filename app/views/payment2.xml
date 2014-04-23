@@ -5,10 +5,14 @@
 		<ScrollView id="container">
 			<Label id="heading" />
 		
+			<Label id="amount" left="10dp">Payment Amount</Label>
+			<TextField id="amounttxt" left="10dp"></TextField>
 			<Label id="ccn" left="10dp">Credit Card Number</Label>
+			<TextField id="ccntxt" left="10dp"></TextField>
 			<Label id="scn" left="10dp">Security Code</Label>
-			<Button id="submit">Submit Payment</Button>
-			
+			<TextField id="scntxt" left="10dp"></TextField>
+			<Button id="submit" left="30dp">Submit</Button>
+			<Button id="clear" right="30dp">Clear</Button>
 			
 			
 			<Label id="text" />

@@ -34,7 +34,23 @@
 	backgroundColor: "#0380Ba",
 	width: Ti.UI.Fill,
 	top: "10dp",
-	height: "35dp"
+	height: "35dp",
+	borderRadius: 10
+}
+"#clear": {
+	backgroundColor: "#0380Ba",
+	width: Ti.UI.Fill,
+	top: "10dp",
+	height: "35dp",
+	borderRadius: 10
+}
+"#amount": {
+	color: "black",
+	height: Ti.UI.SIZE,
+	font: {
+		fontsize: "18dp",
+		fontfamily: "HelveticaNeue"
+	}
 }
 "#ccn": {
 	color: "black",
@@ -51,4 +67,31 @@
 		fontsize: "18dp",
 		fontfamily: "HelveticaNeue"
 	}
+}
+"#scntxt": {
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	borderRadius: 10,
+	height: "45dp",
+	width: "250dp",
+	backgroundColor: "#0380Ba",
+	maxLength: 3,
+	hintText: "XXX"
+}
+"#ccntxt": {
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	borderRadius: 10,
+	height: "45dp",
+	width: "250dp",
+	backgroundColor: "#0380Ba",
+	maxLength: 18,
+	hintText: "XXXX-XXXX-XXXX-XXXX"
+}
+"#amounttxt": {
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	borderRadius: 10,
+	height: "45dp",
+	width: "250dp",
+	backgroundColor: "#0380Ba",
+	maxLength: 10,
+	hintText: "XXXXXX.XX"
 }

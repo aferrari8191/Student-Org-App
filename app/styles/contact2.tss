@@ -35,7 +35,7 @@
 	width: Ti.UI.Fill,
 	top: "10dp",
 	height: "35dp",
-	borderRadius: "10dp"
+	borderRadius: 10
 }
 "#emailtxt": {
 	color: "black",
