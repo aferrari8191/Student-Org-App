@@ -1,6 +1,3 @@
-"#Wrapper": {
-	layout: "vertical"
-},
 "#container": {
 	top: "0dp",
 	backgroundColor: "#FFF",
@@ -29,4 +26,17 @@
 		fontFamily: "HelveticaNeue"
 	},
 	color: "#000"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+},
+
+"#myStuff": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+"#Wrapper": {
+	layout: "vertical"
 }
