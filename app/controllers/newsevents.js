@@ -1,73 +1,125 @@
-/**
- * Controller for the text screen
- *
- * @class Controllers.text
- * @uses core
- */
 var APP = require("core");
-//TODO: create onClick events for different tabs & news items for newsevents tab
-//TODO: create new views for those different items
 var Cloud = require("ti.cloud");
+var CONFIG = arguments[0];
 var init = function() {
-	//loginUser();
-	
-	$.index.open();
+	APP.log("debug", "text | " + JSON.stringify(CONFIG));
+
+	$.NavigationBar.setBackgroundColor(APP.Settings.colors.primary);
+
+	if(CONFIG.isChild === true) {
+		$.NavigationBar.showBack(function(_event) {
+			APP.removeChild();
+		});
+	} else {
+		if(APP.Settings.useSlideMenu) {
+			$.NavigationBar.showMenu(function(_event) {
+				APP.toggleMenu();
+			});
+		} else {
+			$.NavigationBar.showSettings(function(_event) {
+				APP.openSettings();
+			});
+		}
+	}
+
+	loginUser();
+};
+//TODO: read comments below. make changes, test. 
+var makeSomeThing = function() {
+	Cloud.Objects.create({
+		classname: 'News',
+		fields: {
+			title: 'Geekweek with Bill Nye',
+			hours: 'Jessica Smith', // have "by: " before the name when adding it to listview
+			logo: "/images/logo.png", // change this to thumbnail for article
+			menuId: 0,
+			building: "Union" // change this to be article content
+		}
+	}, function(e) {
+		if(e.success) {
+
+			Ti.API.info("=====");
+			Ti.API.info("Inspecting Object e: " + e);
+			for(var thing in e) {
+				Ti.API.info("e." + thing + " = " + e[thing]);
+			}
+			Ti.API.info("=====");
+
+			var test = e.News[0];
+			alert('Success:\n' + 'id: ' + test.id + '\n' + 'title: ' + test.title);
+		} else {
+			alert('Error:\n' + ((e.error && e.message) || JSON.stringify(e)));
+		}
+	});
 };
 
+var getAllTheThings = function() {
+	Cloud.Objects.query({
+		classname: 'News',
+		page: 1,
+		per_page: 50
+	}, function(e) {
+		if(e.success) {
+			var rows = [];
+			alert('Success:\n' + 'Count: ' + e.News.length);
+			for(var i = 0; i < e.News.length; i++) {
+				var newse = e.News[i];
+				//alert('id: ' + newse.id + '\n' + 'title: ' + newse.title );
+				var row = Ti.UI.createTableViewRow({
+					layout: "vertical",
+					hasChild: true,
+					title: newse.title,
+					building: newse.building
+				});
+				var title = Ti.UI.createLabel({
+					text: newse.title,
+					font: {
+						fontFamily: "bold",
+						fontSize: "22dp"
+					},
+					left: "10dp"
+				});
+				var hours = Ti.UI.createLabel({
+					text: "by: " + newse.hours, // TODO: added "by:" thing... hopefully this works. delete comment if it does. 
+					left: "10dp"
+				});
+				row.add(title);
+				row.add(hours);
+				rows.push(row);
+			}
+			$.myStuff.setData(rows);
+		} else {
+			alert('Error:\n' + ((e.error && e.message) || JSON.stringify(e)));
+		}
+	});
+};
+// TODO: change login details to test user already created in our acs account. 
 var loginUser = function() {
-Cloud.Users.login({
-    login: 'test@test.com',
-    password: 'test_password'
-}, function (e) {
-    if (e.success) {
-        var user = e.users[0];
-        alert('Success:\n' +
-            'id: ' + user.id + '\n' +
-            'sessionId: ' + Cloud.sessionId + '\n' +
-            'first name: ' + user.first_name + '\n' +
-            'last name: ' + user.last_name);
-    } else {
-        alert('Error:\n' +
-            ((e.error && e.message) || JSON.stringify(e)));
-    }
-});
+	Cloud.Users.login({
+		login: 'test@test.org',
+		password: 'test'
+	}, function(e) {
+		if(e.success) {
+			var user = e.users[0];
+			alert('Success:\n' + 'id: ' + user.id);
+			//makeThing(); //uncomment this to create items. comment again when done. 
+			getAllTheThings();
+		} else {
+			alert('Error:\n' + ((e.error && e.message) || JSON.stringify(e)));
+		}
+	});
 };
 
-var getallthethings = function() {
-Cloud.Objects.query({
-    classname: 'cars',
-    page: 1,
-    per_page: 10,
-  // "want everything, get rid of where claus"  where: {
-        //color: 'blue'
-    //}
-}, function (e) {
-    if (e.success) {
-        alert('Success:\n' +
-            'Count: ' + e.cars.length);
-        for (var i = 0; i < e.cars.length; i++) {
-            var car = e.cars[i];
-            alert('id: ' + cars.id + '\n' +
-                'make: ' + car.make + '\n' +
-                'color: ' + car.color + '\n' +
-                'year: ' + car.year + '\n' +
-                'created_at: ' + car.created_at);
-        }
-    } else {
-        alert('Error:\n' +
-            ((e.error && e.message) || JSON.stringify(e)));
-    }
+$.myStuff.addEventListener("click", function(e) {
+	APP.addChild("text", {
+		heading: e.row.title,
+		text: e.row.building
+	});
 });
-};
 
-
-
-
-
-
+init();
 
 // previous stuff
-var CONFIG = arguments[0];
 
 APP.log("debug", "text | " + JSON.stringify(CONFIG));
 
