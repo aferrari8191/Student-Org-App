@@ -30,10 +30,10 @@ var makeSomeThing = function() {
 		classname: 'News',
 		fields: {
 			title: 'Geekweek with Bill Nye',
-			hours: 'Jessica Smith', // have "by: " before the name when adding it to listview
-			logo: "/images/logo.png", // change this to thumbnail for article
+			author: 'Jessica Smith',
+			logo: "/images/news1.png", // change this to thumbnail for article
 			menuId: 0,
-			building: "Union" // change this to be article content
+			bodyText: "Geek out over Bill Nye, award winning scientist, engineer, comedian, author, inventor, and man on a mission to help people everywhere understand and appreciate the science that makes our world work. Nye, a mechanical engineer by training, combined his love of science with his flair for comedy into a side job as a comedy writer and performer, and has been entertaining and educating children of all ages ever since." // change this to be article content
 		}
 	}, function(e) {
 		if(e.success) {
@@ -69,7 +69,7 @@ var getAllTheThings = function() {
 					layout: "vertical",
 					hasChild: true,
 					title: newse.title,
-					building: newse.building
+					bodyText: newse.bodyText
 				});
 				var title = Ti.UI.createLabel({
 					text: newse.title,
@@ -79,12 +79,12 @@ var getAllTheThings = function() {
 					},
 					left: "10dp"
 				});
-				var hours = Ti.UI.createLabel({
-					text: "by: " + newse.hours, // TODO: added "by:" thing... hopefully this works. delete comment if it does. 
+				var author = Ti.UI.createLabel({
+					text: "by: " + newse.author, // TODO: added "by:" thing... hopefully this works. delete comment if it does. 
 					left: "10dp"
 				});
 				row.add(title);
-				row.add(hours);
+				row.add(author);
 				rows.push(row);
 			}
 			$.myStuff.setData(rows);
@@ -102,7 +102,7 @@ var loginUser = function() {
 		if(e.success) {
 			var user = e.users[0];
 			alert('Success:\n' + 'id: ' + user.id);
-			//makeThing(); //uncomment this to create items. comment again when done. 
+			//makeSomeThing(); //uncomment this to create items. comment again when done. 
 			getAllTheThings();
 		} else {
 			alert('Error:\n' + ((e.error && e.message) || JSON.stringify(e)));
@@ -113,7 +113,7 @@ var loginUser = function() {
 $.myStuff.addEventListener("click", function(e) {
 	APP.addChild("text", {
 		heading: e.row.title,
-		text: e.row.building
+		text: e.row.bodyText
 	});
 });
 
