@@ -96,8 +96,8 @@ var getAllTheThings = function() {
 // TODO: change login details to test user already created in our acs account. 
 var loginUser = function() {
 	Cloud.Users.login({
-		login: 'test@test.org',
-		password: 'test'
+		login: 'email@email.org',
+		password: 'email'
 	}, function(e) {
 		if(e.success) {
 			var user = e.users[0];
