@@ -5,7 +5,7 @@
 		<ScrollView id="container">
 			<Label id="heading" />
 			<Label id="text" />
-			<View backgroundColor="black" width="Titanium.UI.FILL" height="30dp" onClick="showInfo">
+			<View backgroundColor="black" width="Titanium.UI.FILL" height="30dp">
 				<Label left="32dp">Alumni</Label>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
