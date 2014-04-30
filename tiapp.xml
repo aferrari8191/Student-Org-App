@@ -16,7 +16,7 @@
     <property name="acs-api-key-production" type="string">i818fHDjc6ZKJGkhbAYXtQVLxQwKWMM1</property>
     <property name="acs-oauth-secret-development" type="string">9BRodd4qPoiE0MX4EqobJGFOPMdmJtba</property>
     <property name="acs-oauth-key-development" type="string">t9k0oTxswiHmXxv6W7O4J8ChyqFy4S0V</property>
-    <property name="acs-api-key-development" type="string">I7DvrmfRM58Biwjn2UcAALwEhJnQSHyN</property>	
+    <property name="acs-api-key-development" type="string">I7DvrmfRM58Biwjn2UcAALwEhJnQSHyN</property>
     <deployment-targets>
         <target device="tizen">false</target>
         <target device="mobileweb">false</target>
@@ -30,7 +30,7 @@
     <name>ChariTi Basic</name>
     <version>1.2.1</version>
     <publisher>Anthony &amp; Colin</publisher>
-    <url>http://chariti.mobi</url>
+    <url>http://</url>
     <description>Student Organization App is an essential way for student org members to connect and coordinate together. </description>
     <copyright>2013 by Anthony &amp; Colin</copyright>
     <icon>appicon.png</icon>

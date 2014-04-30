@@ -195,7 +195,7 @@ function Controller() {
                         layout: "vertical",
                         hasChild: true,
                         title: newse.title,
-                        building: newse.building
+                        bodyText: newse.bodyText
                     });
                     var title = Ti.UI.createLabel({
                         text: newse.title,
@@ -205,12 +205,12 @@ function Controller() {
                         },
                         left: "10dp"
                     });
-                    var hours = Ti.UI.createLabel({
-                        text: "by: " + newse.hours,
+                    var author = Ti.UI.createLabel({
+                        text: "by: " + newse.author,
                         left: "10dp"
                     });
                     row.add(title);
-                    row.add(hours);
+                    row.add(author);
                     rows.push(row);
                 }
                 $.myStuff.setData(rows);
@@ -219,8 +219,8 @@ function Controller() {
     };
     var loginUser = function() {
         Cloud.Users.login({
-            login: "test@test.org",
-            password: "test"
+            login: "email@email.org",
+            password: "email"
         }, function(e) {
             if (e.success) {
                 var user = e.users[0];
@@ -232,7 +232,7 @@ function Controller() {
     $.myStuff.addEventListener("click", function(e) {
         APP.addChild("text", {
             heading: e.row.title,
-            text: e.row.building
+            text: e.row.bodyText
         });
     });
     init();
