@@ -1,0 +1,80 @@
+{
+	"id": "ChariTi.001",
+	"version": "1.2",
+	"minimumVersion": "1.2",
+	"configurationUrl": "",
+	"legal": {
+		"copyright": "Copyright ‌2013 ChariTi",
+		"terms": "http://www.appcelerator.com/legal/terms-conditions/",
+		"privacy": "https://policy-portal.truste.com/core/privacy-policy/ChariTi/04175946-6006-4c76-b174-6bc589432474"
+	},
+	"settings": {
+		"share": "Check out this great ChariTi content",
+		"notifications": {
+			"enabled": false,
+			"provider": "UA",
+			"key": "AuKi5Qn3QKGTno3xX9ECYA",
+			"secret": "s-RDQejhRwmx-j4DCaXPMw"
+		},
+		"colors": {
+			"primary": "#FAC92E",
+			"secondary": "#D4A728"
+		},
+		"useSlideMenu": false
+	},
+	"manifest": [
+		"http://chariti.mobi/app/logo.png",
+		"http://chariti.mobi/app/logo@2x.png"
+	],
+	"tabs": [
+		{
+			"menuHeader": "My Student Organization",
+			"title": "Calendar",
+			"heading": "Calendar Page Title.",
+			"text": "Calendar guts go here",
+			"type": "calendar",
+			"image": "event",
+			"tabletSupport": false
+		},
+		{
+			"title": "Alumni",
+			"heading": "Alumni",
+			"text": "Select an Alumni to learn more",
+			"type": "alumni",
+			"image": "social",
+			"tabletSupport": false
+		},
+		{
+			"title": "News",
+			"heading": "News & Events",
+			"text": "Click the tabs to check out different news & events available.",
+			"type": "newsevents",
+			"image": "news",
+			"tabletSupport": false
+		},
+		{
+			"title": "Contact",
+			"heading": "Contact Information",
+			"text": "Contact guts go here",
+			"type": "contact2",
+			"image": "contact",
+			"tabletSupport": false
+		},
+		{
+			"title": "Members",
+			"heading": "Members",
+			"text": "Member guts go here",
+			"type": "members2",
+			"image": "social",
+			"tabletSupport": false
+		},
+		{
+			"title": "Payment",
+			"heading": "Payment",
+			"text": "Payment guts go here",
+			"type": "payment2",
+			"image": "donate",
+			"tabletSupport": false
+		}
+	]
+}

@@ -32,6 +32,7 @@ if(CONFIG.isChild === true) {
 	}
 }
 
+/*
 $.emailbtn.addEventListner("click",function(){
 	
 var emailDialog = Ti.UI.createEmailDialog()
@@ -40,7 +41,8 @@ emailDialog.toRecipients = ['sigmachilambdachi@gmail.com'];
 emailDialog.messageBody = '<b>Sent from Mobile App</b>';
 emailDialog.open();
 )};
+*/
 
-phonetxt.addEventListener('click', function(){
+$.phonetxt.addEventListener('click', function(){
      Titanium.Platform.openURL('tel:12622155758');
 )};
