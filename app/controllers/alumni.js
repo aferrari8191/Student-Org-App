@@ -13,13 +13,13 @@ var APP = require("core");
 //$.myStuff.addEventListener("click", function(e)){
 //APP.addChild("text")	
 //};
-var infoWindow = Ti.UI.createView({
+var showInfo = Ti.UI.createView({
 	backgroundColor: 'white',
 	width: '100dp',
 	height: '100dp'
 });
-infoWindow.addEventListener('click', showInfo);
-add(infoWindow);
+showInfo.addEventListener('click', doClick);
+add(showInfo);
 
 var CONFIG = arguments[0];
 
