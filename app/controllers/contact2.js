@@ -42,3 +42,7 @@ emailDialog.messageBody = '<b>Sent from Mobile App</b>';
 emailDialog.open();
 )};
 */
+
+$.phonetxt.addEventListener('click', function() {
+	Titanium.Platform.openURL('tel:12622155758');
+});

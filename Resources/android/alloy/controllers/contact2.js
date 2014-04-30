@@ -114,6 +114,9 @@ function Controller() {
     }) : $.NavigationBar.showSettings(function() {
         APP.openSettings();
     });
+    $.phonetxt.addEventListener("click", function() {
+        Titanium.Platform.openURL("tel:12622155758");
+    });
     _.extend($, exports);
 }
 
