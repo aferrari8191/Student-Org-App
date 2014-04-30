@@ -57,7 +57,7 @@
 			"heading": "Contact Information",
 			"text": "Contact guts go here",
 			"type": "contact2",
-			"image": "social",
+			"image": "contact",
 			"tabletSupport": false
 		},
 		{
@@ -73,7 +73,7 @@
 			"heading": "Payment",
 			"text": "Payment guts go here",
 			"type": "payment2",
-			"image": "social",
+			"image": "donate",
 			"tabletSupport": false
 		}
 	]
