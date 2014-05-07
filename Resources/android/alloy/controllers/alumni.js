@@ -194,13 +194,6 @@ function Controller() {
     exports.destroy = function() {};
     _.extend($, $.__views);
     var APP = require("core");
-    var infoWindow = Ti.UI.createView({
-        backgroundColor: "white",
-        width: "100dp",
-        height: "100dp"
-    });
-    infoWindow.addEventListener("click", showInfo);
-    add(infoWindow);
     var CONFIG = arguments[0];
     APP.log("debug", "text | " + JSON.stringify(CONFIG));
     $.heading.text = CONFIG.heading;

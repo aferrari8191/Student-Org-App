@@ -32,17 +32,12 @@ if(CONFIG.isChild === true) {
 	}
 }
 
-/*
+
 $.emailbtn.addEventListner("click",function(){
 	
 var emailDialog = Ti.UI.createEmailDialog()
 emailDialog.subject = "Questions about/for Sigma Chi";
-emailDialog.toRecipients = ['sigmachilambdachi@gmail.com'];
+emailDialog.toRecipients = ['aferrari@uwm.eud'];
 emailDialog.messageBody = '<b>Sent from Mobile App</b>';
 emailDialog.open();
 )};
-*/
-
-$.phonetxt.addEventListener('click', function() {
-	Titanium.Platform.openURL('tel:12622155758');
-});

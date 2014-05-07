@@ -32,10 +32,12 @@ if(CONFIG.isChild === true) {
 	}
 }
 
-/*$.submit.addEventListner("click",function(){
+$.submit.addEventListner("click",function(){
 	
+
 )};
 
 $.clear.addEventListner("click",function(){
+	
 
-)};*/
+)};
