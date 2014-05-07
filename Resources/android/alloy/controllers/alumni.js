@@ -6,7 +6,6 @@ function Controller() {
     arguments[0] ? arguments[0]["__itemTemplate"] : null;
     var $ = this;
     var exports = {};
-    var __defers = {};
     $.__views.Wrapper = Ti.UI.createView({
         layout: "vertical",
         id: "Wrapper",
@@ -55,154 +54,146 @@ function Controller() {
         id: "text"
     });
     $.__views.container.add($.__views.text);
-    $.__views.showInfo = Ti.UI.createView({
+    $.__views.__alloyId1 = Ti.UI.createView({
         backgroundColor: "black",
         width: Titanium.UI.FILL,
-        id: "showInfo",
-        height: "30dp"
-    });
-    $.__views.container.add($.__views.showInfo);
-    doClick ? $.__views.showInfo.addEventListener("click", doClick) : __defers["$.__views.showInfo!click!doClick"] = true;
-    $.__views.__alloyId1 = Ti.UI.createLabel({
-        text: "Alumni",
-        left: "32dp",
+        height: "30dp",
         id: "__alloyId1"
     });
-    $.__views.showInfo.add($.__views.__alloyId1);
-    $.__views.__alloyId2 = Ti.UI.createView({
+    $.__views.container.add($.__views.__alloyId1);
+    $.__views.__alloyId2 = Ti.UI.createLabel({
+        text: "Alumni",
+        left: "32dp",
+        id: "__alloyId2"
+    });
+    $.__views.__alloyId1.add($.__views.__alloyId2);
+    $.__views.__alloyId3 = Ti.UI.createView({
         backgroundColor: "white",
         width: Titanium.UI.FILL,
         height: "1dp",
         bottom: "0dp",
-        id: "__alloyId2"
+        id: "__alloyId3"
     });
-    $.__views.showInfo.add($.__views.__alloyId2);
-    $.__views.__alloyId3 = Ti.UI.createView({
+    $.__views.__alloyId1.add($.__views.__alloyId3);
+    $.__views.__alloyId4 = Ti.UI.createView({
         backgroundColor: "#0380BA",
         width: Titanium.UI.FILL,
         height: "64dp",
-        id: "__alloyId3"
+        id: "__alloyId4"
     });
-    $.__views.container.add($.__views.__alloyId3);
-    $.__views.__alloyId4 = Ti.UI.createLabel({
+    $.__views.container.add($.__views.__alloyId4);
+    $.__views.__alloyId5 = Ti.UI.createLabel({
         text: "Logan Peterson",
         left: "32dp",
         color: "white",
-        id: "__alloyId4"
+        id: "__alloyId5"
     });
-    $.__views.__alloyId3.add($.__views.__alloyId4);
-    $.__views.__alloyId5 = Ti.UI.createImageView({
+    $.__views.__alloyId4.add($.__views.__alloyId5);
+    $.__views.__alloyId6 = Ti.UI.createImageView({
         image: "/images/portraitlogan.jpg",
         right: "0dp",
         height: Ti.UI.Fill,
-        id: "__alloyId5"
+        id: "__alloyId6"
     });
-    $.__views.__alloyId3.add($.__views.__alloyId5);
-    $.__views.__alloyId6 = Ti.UI.createView({
+    $.__views.__alloyId4.add($.__views.__alloyId6);
+    $.__views.__alloyId7 = Ti.UI.createView({
         backgroundColor: "white",
         width: Titanium.UI.FILL,
         height: "1dp",
         bottom: "0dp",
-        id: "__alloyId6"
+        id: "__alloyId7"
     });
-    $.__views.__alloyId3.add($.__views.__alloyId6);
-    $.__views.__alloyId7 = Ti.UI.createView({
+    $.__views.__alloyId4.add($.__views.__alloyId7);
+    $.__views.__alloyId8 = Ti.UI.createView({
         backgroundColor: "#0380BA",
         width: Titanium.UI.FILL,
         height: "64dp",
-        id: "__alloyId7"
+        id: "__alloyId8"
     });
-    $.__views.container.add($.__views.__alloyId7);
-    $.__views.__alloyId8 = Ti.UI.createLabel({
+    $.__views.container.add($.__views.__alloyId8);
+    $.__views.__alloyId9 = Ti.UI.createLabel({
         text: "Matt Cash",
         left: "32dp",
         color: "white",
-        id: "__alloyId8"
+        id: "__alloyId9"
     });
-    $.__views.__alloyId7.add($.__views.__alloyId8);
-    $.__views.__alloyId9 = Ti.UI.createImageView({
+    $.__views.__alloyId8.add($.__views.__alloyId9);
+    $.__views.__alloyId10 = Ti.UI.createImageView({
         image: "/images/portraitmatt.png",
         right: "0dp",
         height: Ti.UI.Fill,
-        id: "__alloyId9"
+        id: "__alloyId10"
     });
-    $.__views.__alloyId7.add($.__views.__alloyId9);
-    $.__views.__alloyId10 = Ti.UI.createView({
+    $.__views.__alloyId8.add($.__views.__alloyId10);
+    $.__views.__alloyId11 = Ti.UI.createView({
         backgroundColor: "white",
         width: Titanium.UI.FILL,
         height: "1dp",
         bottom: "0dp",
-        id: "__alloyId10"
+        id: "__alloyId11"
     });
-    $.__views.__alloyId7.add($.__views.__alloyId10);
-    $.__views.__alloyId11 = Ti.UI.createView({
+    $.__views.__alloyId8.add($.__views.__alloyId11);
+    $.__views.__alloyId12 = Ti.UI.createView({
         backgroundColor: "#0380BA",
         width: Titanium.UI.FILL,
         height: "64dp",
-        id: "__alloyId11"
+        id: "__alloyId12"
     });
-    $.__views.container.add($.__views.__alloyId11);
-    $.__views.__alloyId12 = Ti.UI.createLabel({
+    $.__views.container.add($.__views.__alloyId12);
+    $.__views.__alloyId13 = Ti.UI.createLabel({
         text: "Scott Nelson",
         left: "32dp",
         color: "white",
-        id: "__alloyId12"
+        id: "__alloyId13"
     });
-    $.__views.__alloyId11.add($.__views.__alloyId12);
-    $.__views.__alloyId13 = Ti.UI.createImageView({
+    $.__views.__alloyId12.add($.__views.__alloyId13);
+    $.__views.__alloyId14 = Ti.UI.createImageView({
         image: "/images/portraitscott.png",
         right: "0dp",
         height: Ti.UI.Fill,
-        id: "__alloyId13"
+        id: "__alloyId14"
     });
-    $.__views.__alloyId11.add($.__views.__alloyId13);
-    $.__views.__alloyId14 = Ti.UI.createView({
+    $.__views.__alloyId12.add($.__views.__alloyId14);
+    $.__views.__alloyId15 = Ti.UI.createView({
         backgroundColor: "white",
         width: Titanium.UI.FILL,
         height: "1dp",
         bottom: "0dp",
-        id: "__alloyId14"
+        id: "__alloyId15"
     });
-    $.__views.__alloyId11.add($.__views.__alloyId14);
-    $.__views.__alloyId15 = Ti.UI.createView({
+    $.__views.__alloyId12.add($.__views.__alloyId15);
+    $.__views.__alloyId16 = Ti.UI.createView({
         backgroundColor: "#0380BA",
         width: Titanium.UI.FILL,
         height: "64dp",
-        id: "__alloyId15"
+        id: "__alloyId16"
     });
-    $.__views.container.add($.__views.__alloyId15);
-    $.__views.__alloyId16 = Ti.UI.createLabel({
+    $.__views.container.add($.__views.__alloyId16);
+    $.__views.__alloyId17 = Ti.UI.createLabel({
         text: "Sean Mackman",
         left: "32dp",
         color: "white",
-        id: "__alloyId16"
+        id: "__alloyId17"
     });
-    $.__views.__alloyId15.add($.__views.__alloyId16);
-    $.__views.__alloyId17 = Ti.UI.createImageView({
+    $.__views.__alloyId16.add($.__views.__alloyId17);
+    $.__views.__alloyId18 = Ti.UI.createImageView({
         image: "/images/portraitsean.png",
         right: "0dp",
         height: Ti.UI.Fill,
-        id: "__alloyId17"
+        id: "__alloyId18"
     });
-    $.__views.__alloyId15.add($.__views.__alloyId17);
-    $.__views.__alloyId18 = Ti.UI.createView({
+    $.__views.__alloyId16.add($.__views.__alloyId18);
+    $.__views.__alloyId19 = Ti.UI.createView({
         backgroundColor: "white",
         width: Titanium.UI.FILL,
         height: "1dp",
         bottom: "0dp",
-        id: "__alloyId18"
+        id: "__alloyId19"
     });
-    $.__views.__alloyId15.add($.__views.__alloyId18);
+    $.__views.__alloyId16.add($.__views.__alloyId19);
     exports.destroy = function() {};
     _.extend($, $.__views);
     var APP = require("core");
-    var showInfo = Ti.UI.createView({
-        backgroundColor: "white",
-        width: "100dp",
-        height: "100dp"
-    });
-    showInfo.addEventListener("click", doClick);
-    add(showInfo);
     var CONFIG = arguments[0];
     APP.log("debug", "text | " + JSON.stringify(CONFIG));
     $.heading.text = CONFIG.heading;
@@ -216,7 +207,6 @@ function Controller() {
     }) : $.NavigationBar.showSettings(function() {
         APP.openSettings();
     });
-    __defers["$.__views.showInfo!click!doClick"] && $.__views.showInfo.addEventListener("click", doClick);
     _.extend($, exports);
 }
 

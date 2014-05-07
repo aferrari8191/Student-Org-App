@@ -28,20 +28,6 @@ function Controller() {
         id: "container"
     });
     $.__views.Wrapper.add($.__views.container);
-    $.__views.__alloyId205 = Ti.UI.createLabel({
-        top: "15dp",
-        left: "15dp",
-        right: "15dp",
-        height: Ti.UI.SIZE,
-        font: {
-            fontSize: "14dp",
-            fontFamily: "HelveticaNeue"
-        },
-        color: "#000",
-        text: "Primary design and development by Matthew Congrove with the assistance of Josh Jensen, Roger White, Aaron Hartwig and Fokke Zandbergen.",
-        id: "__alloyId205"
-    });
-    $.__views.container.add($.__views.__alloyId205);
     $.__views.__alloyId206 = Ti.UI.createLabel({
         top: "15dp",
         left: "15dp",
@@ -52,7 +38,7 @@ function Controller() {
             fontFamily: "HelveticaNeue"
         },
         color: "#000",
-        text: "Uses open source code or designs developed by Mads Møller, Fokke Zandbergen, Jon Alter, Tim Wood, Ivo Ivanov and Sérgio Jardim.",
+        text: "Primary design and development by Matthew Congrove with the assistance of Josh Jensen, Roger White, Aaron Hartwig and Fokke Zandbergen.",
         id: "__alloyId206"
     });
     $.__views.container.add($.__views.__alloyId206);
@@ -66,7 +52,7 @@ function Controller() {
             fontFamily: "HelveticaNeue"
         },
         color: "#000",
-        text: "Special thanks to Rick Blalock, Tony Lukasavage, Greg DiPaolo, Dennis Ashby, Varun Joshi, Elyse Phillips, Sandeep Johri, Jeff Haynie and the rest of the team at Appcelerator, Ray Miranda, Ivan Mathy, Oleg Polyakov, and the entire crowd of developers at Appcelerator's 2012 Hack-to-Help.",
+        text: "Uses open source code or designs developed by Mads Møller, Fokke Zandbergen, Jon Alter, Tim Wood, Ivo Ivanov and Sérgio Jardim.",
         id: "__alloyId207"
     });
     $.__views.container.add($.__views.__alloyId207);
@@ -80,7 +66,7 @@ function Controller() {
             fontFamily: "HelveticaNeue"
         },
         color: "#000",
-        text: "We'd also like to recognize all of the folks at ROAR and the University of Wisconsin-Milwaukee's App Brewery.",
+        text: "Special thanks to Rick Blalock, Tony Lukasavage, Greg DiPaolo, Dennis Ashby, Varun Joshi, Elyse Phillips, Sandeep Johri, Jeff Haynie and the rest of the team at Appcelerator, Ray Miranda, Ivan Mathy, Oleg Polyakov, and the entire crowd of developers at Appcelerator's 2012 Hack-to-Help.",
         id: "__alloyId208"
     });
     $.__views.container.add($.__views.__alloyId208);
@@ -94,7 +80,7 @@ function Controller() {
             fontFamily: "HelveticaNeue"
         },
         color: "#000",
-        text: "ChariTi is built on Appcelerator's Titanium Mobile and utilizes the Alloy framework. ChariTi's code is hosted for free by the amazing folks at GitHub, kept DRY by Simon Harris' Simian, documented by JSDuck, and kept clean thanks to Einar Lielmanis' JS Beautifier.",
+        text: "We'd also like to recognize all of the folks at ROAR and the University of Wisconsin-Milwaukee's App Brewery.",
         id: "__alloyId209"
     });
     $.__views.container.add($.__views.__alloyId209);
@@ -108,11 +94,25 @@ function Controller() {
             fontFamily: "HelveticaNeue"
         },
         color: "#000",
-        bottom: "15dp",
-        text: "Custom icons were provided by Roger White.",
+        text: "ChariTi is built on Appcelerator's Titanium Mobile and utilizes the Alloy framework. ChariTi's code is hosted for free by the amazing folks at GitHub, kept DRY by Simon Harris' Simian, documented by JSDuck, and kept clean thanks to Einar Lielmanis' JS Beautifier.",
         id: "__alloyId210"
     });
     $.__views.container.add($.__views.__alloyId210);
+    $.__views.__alloyId211 = Ti.UI.createLabel({
+        top: "15dp",
+        left: "15dp",
+        right: "15dp",
+        height: Ti.UI.SIZE,
+        font: {
+            fontSize: "14dp",
+            fontFamily: "HelveticaNeue"
+        },
+        color: "#000",
+        bottom: "15dp",
+        text: "Custom icons were provided by Roger White.",
+        id: "__alloyId211"
+    });
+    $.__views.container.add($.__views.__alloyId211);
     exports.destroy = function() {};
     _.extend($, $.__views);
     var APP = require("core");

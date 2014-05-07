@@ -13,14 +13,15 @@ var APP = require("core");
 //$.myStuff.addEventListener("click", function(e)){
 //APP.addChild("text")	
 //};
-var showInfo = Ti.UI.createView({
+/*var showInfo = Ti.UI.createView({
 	backgroundColor: 'white',
 	width: '100dp',
 	height: '100dp'
 });
 showInfo.addEventListener('click', doClick);
 add(showInfo);
-
+//stuff from xml= id="showInfo" onClick="doClick" 
+*/
 var CONFIG = arguments[0];
 
 APP.log("debug", "text | " + JSON.stringify(CONFIG));
