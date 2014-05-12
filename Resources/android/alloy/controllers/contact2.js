@@ -54,6 +54,13 @@ function Controller() {
         id: "text"
     });
     $.__views.container.add($.__views.text);
+    $.__views.__alloyId20 = Ti.UI.createImageView({
+        image: "/images/portraitmatt.png",
+        height: "90dp",
+        width: "70dp",
+        id: "__alloyId20"
+    });
+    $.__views.container.add($.__views.__alloyId20);
     $.__views.emailtxt = Ti.UI.createLabel({
         color: "black",
         height: Ti.UI.SIZE,

@@ -31,6 +31,7 @@ if(CONFIG.isChild === true) {
 		});
 	}
 }
+// The Paypal module will be worked on over the summer as the scope of this tab is to big for the class
 
 /*$.submit.addEventListner("click",function(){
 	

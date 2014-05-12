@@ -5,6 +5,7 @@
 		<ScrollView id="container">
 			<Label id="heading" />
 			<Label id="text" />
+			<ImageView image="/images/portraitmatt.png" height="90dp" width="70dp"/>
 			<Label id="emailtxt">sigmachilambdachi@gmail.com</Label>
 			<Button id="emailbtn" label="email">Questions?</Button>
 			<Label id="phonetxt">262-215-5758</Label>

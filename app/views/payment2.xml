@@ -12,7 +12,7 @@
 			<Label id="scn" left="10dp">Security Code</Label>
 			<TextField id="scntxt" left="10dp"></TextField>
 			<Button id="submit" left="30dp">Submit</Button>
-			<Button id="clear" right="30dp">Clear</Button>
+			<Button id="clear" left="30dp">Clear</Button>
 			
 			
 			<Label id="text" />

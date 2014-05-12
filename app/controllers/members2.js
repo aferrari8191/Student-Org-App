@@ -31,3 +31,5 @@ if(CONFIG.isChild === true) {
 		});
 	}
 }
+
+// onclick functions will be added when the website is updated so I can pull the appropirate info from it

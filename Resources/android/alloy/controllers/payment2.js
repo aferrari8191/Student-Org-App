@@ -131,7 +131,7 @@ function Controller() {
         borderRadius: 10,
         title: "Clear",
         id: "clear",
-        right: "30dp"
+        left: "30dp"
     });
     $.__views.container.add($.__views.clear);
     $.__views.text = Ti.UI.createLabel({
