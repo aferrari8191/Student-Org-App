@@ -31,3 +31,5 @@ if(CONFIG.isChild === true) {
 		});
 	}
 }
+
+// Once website is updated there will be more onclick functions

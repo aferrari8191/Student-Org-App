@@ -6,222 +6,242 @@
 			<Label id="heading" />
 			
 			<View backgroundColor="black" width="Titanium.UI.FILL" height="30dp">
-				<Label left="32dp">Members</Label>
+				<Label left="32dp">Executive Board</Label>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 1 Example</Label>
+				<Label left="32dp" color="white">President: Eric Sundquist</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 2 Example</Label>
+				<Label left="32dp" color="white">Vice President: Kevin Barbour</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 3 Example</Label>
+				<Label left="32dp" color="white">Annotator: Paul Oshefsky</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 4 Example</Label>
+				<Label left="32dp" color="white">Questor: Tim Keenen</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 5 Example</Label>
+				<Label left="32dp" color="white">Magister: Clyde Giddings</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 6 Example</Label>
+				<Label left="32dp" color="white">Tribune: Brett Kearns</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 7 Example</Label>
+				<Label left="32dp" color="white">Kustos: Alex Saunders</Label>
+				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
+			<View backgroundColor="black" width="Titanium.UI.FILL" height="30dp">
+				<Label left="32dp">Chairman Postions</Label>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
+			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
+				<Label left="32dp" color="white">Recruitment: Chris Harms</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 8 Example</Label>
+				<Label left="32dp" color="white">Philanthropy: Richie Franz</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 9 Example</Label>
+				<Label left="32dp" color="white">Brotherhood: Brett Weyers</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 10 Example</Label>
+				<Label left="32dp" color="white">Derby Days: Domenic Pellicori</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 11 Example</Label>
+				<Label left="32dp" color="white">Risk Management: Mike Stefik</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 12 Example</Label>
+				<Label left="32dp" color="white">Chapter Editor: Dan Zeilinski</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 13 Example</Label>
+				<Label left="32dp" color="white">Historian : Casey Mullins</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 14 Example</Label>
+				<Label left="32dp" color="white">Greek Council: Ben Wenzel</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 15 Example</Label>
+				<Label left="32dp" color="white">PR: Chris Harms-</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 16 Example</Label>
+				<Label left="32dp" color="white">Scholarship: Brendan Semph</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 17 Example</Label>
+				<Label left="32dp" color="white">Community Service: Alex Shott</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 18 Example</Label>
+				<Label left="32dp" color="white">Greek Week/ Greek Olypmics: Matt Nordman</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 19 Example</Label>
+				<Label left="32dp" color="white">Formal: Drew Kendl</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 20 Example</Label>
+				<Label left="32dp" color="white">Intermural: Taylor Koss</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 21 Example</Label>
+				<Label left="32dp" color="white">T-Shirt: Dom Pelicori</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 22 Example</Label>
+				<Label left="32dp" color="white">Sweethheart: Kevin Barbour</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 23 Example</Label>
+				<Label left="32dp" color="white">Social: Drew Kendl</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 24 Example</Label>
+				<Label left="32dp" color="white">Fundraising: Alex Schott</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 25 Example</Label>
+				<Label left="32dp" color="white">Parent: Mitch Horne</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 26 Example</Label>
+				<Label left="32dp" color="white">Ritual: Nicholas Mangini</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 27 Example</Label>
+				<Label left="32dp" color="white">Judicial: Brett Weyers</Label>
+				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
+			<View backgroundColor="black" width="Titanium.UI.FILL" height="30dp">
+				<Label left="32dp">Brothers</Label>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
+			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
+				<Label left="32dp" color="white">Anthony Ferrari</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 28 Example</Label>
+				<Label left="32dp" color="white">Frank Berg</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 29 Example</Label>
+				<Label left="32dp" color="white">Niko Giuliani</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 30 Example</Label>
+				<Label left="32dp" color="white">Andrew La Fleur</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 31 Example</Label>
+				<Label left="32dp" color="white">Peter Smith</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 32 Example</Label>
+				<Label left="32dp" color="white">Jordan Matis</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 33 Example</Label>
+				<Label left="32dp" color="white">Mike Casali</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 34 Example</Label>
+				<Label left="32dp" color="white">Brian Lynch</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 35 Example</Label>
+				<Label left="32dp" color="white">Ryan Dresden</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 36 Example</Label>
+				<Label left="32dp" color="white">Brandon Moy</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 37 Example</Label>
+				<Label left="32dp" color="white">William Casey</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 38 Example</Label>
+				<Label left="32dp" color="white">Josh Wicks</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 39 Example</Label>
+				<Label left="32dp" color="white">Parker Kring</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 40 Example</Label>
+				<Label left="32dp" color="white">Chris Kirst</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 41 Example</Label>
+				<Label left="32dp" color="white">Luke Wagner</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
 			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
-				<Label left="32dp" color="white">Member 42 Example</Label>
+				<Label left="32dp" color="white">Tim Keenan</Label>
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
-			
-			
-			
+			<View backgroundColor="#0380BA" width="Titanium.UI.FILL" height="64dp">
+				<Label left="32dp" color="white">Joe Love</Label>
+				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
+				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
+			</View>
 			
 			<Label id="text" />
 			
