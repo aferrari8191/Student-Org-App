@@ -37,7 +37,7 @@ $.emailbtn.addEventListner("click",function(){
 	
 /*var emailDialog = Ti.UI.createEmailDialog()
 emailDialog.subject = "Questions about/for Sigma Chi";
-emailDialog.toRecipients = ['aferrari@uwm.eud'];
+emailDialog.toRecipients = ['sigmachilambdachi@gmail.com'];
 emailDialog.messageBody = '<b>Sent from Mobile App</b>';
 emailDialog.open();
 )};

@@ -5,7 +5,7 @@
 		<ScrollView id="container">
 			<Label id="heading" />
 			<Label id="text" />
-			<Label id="emailtxt">aferrari@uwm.edu</Label>
+			<Label id="emailtxt">sigmachilambdachi@gmail.com</Label>
 			<Button id="emailbtn" label="email">Questions?</Button>
 			<Label id="phonetxt">262-215-5758</Label>
 			<Label id="officetxt">Office:Union 325</Label>
