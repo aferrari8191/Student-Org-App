@@ -61,7 +61,7 @@ function Controller() {
             fontsize: "18dp",
             fontfamily: "HelveticaNeue"
         },
-        text: "aferrari@uwm.edu",
+        text: "sigmachilambdachi@gmail.com",
         id: "emailtxt"
     });
     $.__views.container.add($.__views.emailtxt);

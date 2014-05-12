@@ -152,9 +152,7 @@ function Controller() {
     _.extend($, $.__views);
     var CONFIG = arguments[0] || {};
     var navigation, theme;
-    {
-        parseInt(Titanium.Platform.version.split(".")[0], 10);
-    }
+    parseInt(Titanium.Platform.version.split(".")[0], 10);
     if (CONFIG.image) {
         var image = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, CONFIG.image);
         if (image.exists()) {

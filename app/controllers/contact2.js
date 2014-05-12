@@ -32,10 +32,10 @@ if(CONFIG.isChild === true) {
 	}
 }
 
-
+/*
 $.emailbtn.addEventListner("click",function(){
 	
-/*var emailDialog = Ti.UI.createEmailDialog()
+var emailDialog = Ti.UI.createEmailDialog()
 emailDialog.subject = "Questions about/for Sigma Chi";
 emailDialog.toRecipients = ['sigmachilambdachi@gmail.com'];
 emailDialog.messageBody = '<b>Sent from Mobile App</b>';
