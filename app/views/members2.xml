@@ -242,9 +242,6 @@
 				<ImageView image="" right="0dp" height="Ti.UI.Fill"/>
 				<View backgroundColor="white" width="Titanium.UI.FILL" height="1dp" bottom="0dp"/>
 			</View>
-			
-			<Label id="text" />
-			
 		</ScrollView>
 	</View>
 </Alloy>
