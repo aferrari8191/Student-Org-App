@@ -28,7 +28,7 @@ function Controller() {
         id: "container"
     });
     $.__views.Wrapper.add($.__views.container);
-    $.__views.__alloyId225 = Ti.UI.createLabel({
+    $.__views.__alloyId213 = Ti.UI.createLabel({
         top: "15dp",
         left: "15dp",
         right: "15dp",
@@ -39,10 +39,10 @@ function Controller() {
         },
         color: "#000",
         text: "Primary design and development by Matthew Congrove with the assistance of Josh Jensen, Roger White, Aaron Hartwig and Fokke Zandbergen.",
-        id: "__alloyId225"
+        id: "__alloyId213"
     });
-    $.__views.container.add($.__views.__alloyId225);
-    $.__views.__alloyId226 = Ti.UI.createLabel({
+    $.__views.container.add($.__views.__alloyId213);
+    $.__views.__alloyId214 = Ti.UI.createLabel({
         top: "15dp",
         left: "15dp",
         right: "15dp",
@@ -53,10 +53,10 @@ function Controller() {
         },
         color: "#000",
         text: "Uses open source code or designs developed by Mads Møller, Fokke Zandbergen, Jon Alter, Tim Wood, Ivo Ivanov and Sérgio Jardim.",
-        id: "__alloyId226"
+        id: "__alloyId214"
     });
-    $.__views.container.add($.__views.__alloyId226);
-    $.__views.__alloyId227 = Ti.UI.createLabel({
+    $.__views.container.add($.__views.__alloyId214);
+    $.__views.__alloyId215 = Ti.UI.createLabel({
         top: "15dp",
         left: "15dp",
         right: "15dp",
@@ -67,10 +67,10 @@ function Controller() {
         },
         color: "#000",
         text: "Special thanks to Rick Blalock, Tony Lukasavage, Greg DiPaolo, Dennis Ashby, Varun Joshi, Elyse Phillips, Sandeep Johri, Jeff Haynie and the rest of the team at Appcelerator, Ray Miranda, Ivan Mathy, Oleg Polyakov, and the entire crowd of developers at Appcelerator's 2012 Hack-to-Help.",
-        id: "__alloyId227"
+        id: "__alloyId215"
     });
-    $.__views.container.add($.__views.__alloyId227);
-    $.__views.__alloyId228 = Ti.UI.createLabel({
+    $.__views.container.add($.__views.__alloyId215);
+    $.__views.__alloyId216 = Ti.UI.createLabel({
         top: "15dp",
         left: "15dp",
         right: "15dp",
@@ -81,10 +81,10 @@ function Controller() {
         },
         color: "#000",
         text: "We'd also like to recognize all of the folks at ROAR and the University of Wisconsin-Milwaukee's App Brewery.",
-        id: "__alloyId228"
+        id: "__alloyId216"
     });
-    $.__views.container.add($.__views.__alloyId228);
-    $.__views.__alloyId229 = Ti.UI.createLabel({
+    $.__views.container.add($.__views.__alloyId216);
+    $.__views.__alloyId217 = Ti.UI.createLabel({
         top: "15dp",
         left: "15dp",
         right: "15dp",
@@ -95,10 +95,10 @@ function Controller() {
         },
         color: "#000",
         text: "ChariTi is built on Appcelerator's Titanium Mobile and utilizes the Alloy framework. ChariTi's code is hosted for free by the amazing folks at GitHub, kept DRY by Simon Harris' Simian, documented by JSDuck, and kept clean thanks to Einar Lielmanis' JS Beautifier.",
-        id: "__alloyId229"
+        id: "__alloyId217"
     });
-    $.__views.container.add($.__views.__alloyId229);
-    $.__views.__alloyId230 = Ti.UI.createLabel({
+    $.__views.container.add($.__views.__alloyId217);
+    $.__views.__alloyId218 = Ti.UI.createLabel({
         top: "15dp",
         left: "15dp",
         right: "15dp",
@@ -110,9 +110,9 @@ function Controller() {
         color: "#000",
         bottom: "15dp",
         text: "Custom icons were provided by Roger White.",
-        id: "__alloyId230"
+        id: "__alloyId218"
     });
-    $.__views.container.add($.__views.__alloyId230);
+    $.__views.container.add($.__views.__alloyId218);
     exports.destroy = function() {};
     _.extend($, $.__views);
     var APP = require("core");

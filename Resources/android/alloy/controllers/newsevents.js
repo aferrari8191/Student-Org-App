@@ -62,111 +62,77 @@ function Controller() {
         id: "myStuff"
     });
     $.__views.container.add($.__views.myStuff);
-    $.__views.__alloyId210 = Ti.UI.createView({
-        backgroundColor: "#0380BA",
-        width: "94%",
-        height: "400dp",
-        bottom: "75dp",
-        id: "__alloyId210"
-    });
-    $.__views.container.add($.__views.__alloyId210);
-    $.__views.__alloyId211 = Ti.UI.createView({
-        backgroundColor: "#388E8E",
-        width: "31%",
-        height: "50dp",
-        top: "1dp",
-        left: "1dp",
-        id: "__alloyId211"
-    });
-    $.__views.__alloyId210.add($.__views.__alloyId211);
-    $.__views.__alloyId212 = Ti.UI.createLabel({
-        width: Ti.UI.SIZE,
-        height: Ti.UI.SIZE,
-        color: "black",
-        text: "Recent",
-        left: "32dp",
-        verticalAlign: "center",
-        id: "__alloyId212"
-    });
-    $.__views.__alloyId211.add($.__views.__alloyId212);
-    $.__views.__alloyId213 = Ti.UI.createView({
-        backgroundColor: "#ADEAEA",
-        width: "31%",
-        height: "50dp",
-        top: "1dp",
-        id: "__alloyId213"
-    });
-    $.__views.__alloyId210.add($.__views.__alloyId213);
-    $.__views.__alloyId214 = Ti.UI.createLabel({
-        width: Ti.UI.SIZE,
-        height: Ti.UI.SIZE,
-        color: "black",
-        text: "Popular",
-        left: "32dp",
-        textAlign: "center",
-        verticalAlign: "center",
-        id: "__alloyId214"
-    });
-    $.__views.__alloyId213.add($.__views.__alloyId214);
-    $.__views.__alloyId215 = Ti.UI.createView({
-        backgroundColor: "#ADEAEA",
-        width: "31%",
-        height: "50dp",
-        top: "1dp",
-        right: "1dp",
-        id: "__alloyId215"
-    });
-    $.__views.__alloyId210.add($.__views.__alloyId215);
-    $.__views.__alloyId216 = Ti.UI.createLabel({
-        width: Ti.UI.SIZE,
-        height: Ti.UI.SIZE,
-        color: "black",
-        text: "Critical",
-        left: "32dp",
-        zIndex: "1",
-        id: "__alloyId216"
-    });
-    $.__views.__alloyId215.add($.__views.__alloyId216);
-    $.__views.__alloyId217 = Ti.UI.createScrollView({
-        scrollsToTop: false,
-        backgroundColor: "white",
-        width: "95%",
-        top: "61dp",
-        bottom: "7dp",
-        id: "__alloyId217"
-    });
-    $.__views.__alloyId210.add($.__views.__alloyId217);
-    $.__views.__alloyId218 = Ti.UI.createView({
-        height: "300dp",
-        color: "gray",
-        id: "__alloyId218"
-    });
-    $.__views.__alloyId217.add($.__views.__alloyId218);
-    $.__views.__alloyId219 = Ti.UI.createLabel({
-        width: Ti.UI.SIZE,
-        height: Ti.UI.SIZE,
-        color: "black",
-        text: "Content will go here.",
-        id: "__alloyId219"
-    });
-    $.__views.__alloyId218.add($.__views.__alloyId219);
-    $.__views.__alloyId220 = Ti.UI.createView({
-        height: "300dp",
-        id: "__alloyId220"
-    });
-    $.__views.__alloyId217.add($.__views.__alloyId220);
-    $.__views.__alloyId221 = Ti.UI.createLabel({
-        width: Ti.UI.SIZE,
-        height: Ti.UI.SIZE,
-        color: "black",
-        text: "Most interesting news!",
-        id: "__alloyId221"
-    });
-    $.__views.__alloyId220.add($.__views.__alloyId221);
     exports.destroy = function() {};
     _.extend($, $.__views);
     var APP = require("core");
+    var Cloud = require("ti.cloud");
     var CONFIG = arguments[0];
+    var init = function() {
+        APP.log("debug", "text | " + JSON.stringify(CONFIG));
+        $.NavigationBar.setBackgroundColor(APP.Settings.colors.primary);
+        true === CONFIG.isChild ? $.NavigationBar.showBack(function() {
+            APP.removeChild();
+        }) : APP.Settings.useSlideMenu ? $.NavigationBar.showMenu(function() {
+            APP.toggleMenu();
+        }) : $.NavigationBar.showSettings(function() {
+            APP.openSettings();
+        });
+        loginUser();
+    };
+    var getAllTheThings = function() {
+        Cloud.Objects.query({
+            classname: "News",
+            page: 1,
+            per_page: 50
+        }, function(e) {
+            if (e.success) {
+                var rows = [];
+                for (var i = 0; e.News.length > i; i++) {
+                    var newse = e.News[i];
+                    var row = Ti.UI.createTableViewRow({
+                        layout: "vertical",
+                        hasChild: true,
+                        title: newse.title,
+                        bodyText: newse.bodyText
+                    });
+                    var title = Ti.UI.createLabel({
+                        text: newse.title,
+                        font: {
+                            fontFamily: "bold",
+                            fontSize: "22dp"
+                        },
+                        left: "10dp"
+                    });
+                    var author = Ti.UI.createLabel({
+                        text: "by: " + newse.author,
+                        left: "10dp"
+                    });
+                    row.add(title);
+                    row.add(author);
+                    rows.push(row);
+                }
+                $.myStuff.setData(rows);
+            } else alert("Error:\n" + (e.error && e.message || JSON.stringify(e)));
+        });
+    };
+    var loginUser = function() {
+        Cloud.Users.login({
+            login: "email@email.org",
+            password: "email"
+        }, function(e) {
+            if (e.success) {
+                e.users[0];
+                getAllTheThings();
+            } else alert("Error:\n" + (e.error && e.message || JSON.stringify(e)));
+        });
+    };
+    $.myStuff.addEventListener("click", function(e) {
+        APP.addChild("text", {
+            heading: e.row.title,
+            text: e.row.bodyText
+        });
+    });
+    init();
     APP.log("debug", "text | " + JSON.stringify(CONFIG));
     $.heading.text = CONFIG.heading;
     $.heading.color = APP.Settings.colors.hsb.primary.b > 70 ? "#000" : APP.Settings.colors.primary;

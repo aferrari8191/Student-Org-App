@@ -28,7 +28,7 @@ function Controller() {
         id: "container"
     });
     $.__views.Wrapper.add($.__views.container);
-    var __alloyId222 = [];
+    var __alloyId210 = [];
     $.__views.terms = Ti.UI.createTableViewRow({
         selectedBackgroundColor: "#DDD",
         font: {
@@ -42,7 +42,7 @@ function Controller() {
         title: "Terms of Service",
         hasChild: "true"
     });
-    __alloyId222.push($.__views.terms);
+    __alloyId210.push($.__views.terms);
     $.__views.privacy = Ti.UI.createTableViewRow({
         selectedBackgroundColor: "#DDD",
         font: {
@@ -56,7 +56,7 @@ function Controller() {
         title: "Privacy Policy",
         hasChild: "true"
     });
-    __alloyId222.push($.__views.privacy);
+    __alloyId210.push($.__views.privacy);
     $.__views.legal_table = Ti.UI.createTableView({
         scrollsToTop: false,
         right: "0dp",
@@ -66,12 +66,12 @@ function Controller() {
         rowHeight: "45dp",
         backgroundColor: "#FFF",
         scrollable: false,
-        data: __alloyId222,
+        data: __alloyId210,
         id: "legal_table",
         height: "90dp"
     });
     $.__views.container.add($.__views.legal_table);
-    var __alloyId223 = [];
+    var __alloyId211 = [];
     $.__views.logs = Ti.UI.createTableViewRow({
         selectedBackgroundColor: "#DDD",
         font: {
@@ -85,7 +85,7 @@ function Controller() {
         title: "Send Application Logs",
         hasChild: "true"
     });
-    __alloyId223.push($.__views.logs);
+    __alloyId211.push($.__views.logs);
     $.__views.acknowledgements = Ti.UI.createTableViewRow({
         selectedBackgroundColor: "#DDD",
         font: {
@@ -99,7 +99,7 @@ function Controller() {
         title: "Acknowledgements",
         hasChild: "true"
     });
-    __alloyId223.push($.__views.acknowledgements);
+    __alloyId211.push($.__views.acknowledgements);
     $.__views.logs_table = Ti.UI.createTableView({
         scrollsToTop: false,
         right: "0dp",
@@ -109,7 +109,7 @@ function Controller() {
         rowHeight: "45dp",
         backgroundColor: "#FFF",
         scrollable: false,
-        data: __alloyId223,
+        data: __alloyId211,
         id: "logs_table",
         height: "90dp"
     });
@@ -142,7 +142,7 @@ function Controller() {
         id: "version"
     });
     $.__views.container.add($.__views.version);
-    $.__views.__alloyId224 = Ti.UI.createLabel({
+    $.__views.__alloyId212 = Ti.UI.createLabel({
         color: "#666",
         font: {
             fontSize: "14dp",
@@ -154,9 +154,9 @@ function Controller() {
         height: Ti.UI.SIZE,
         textAlign: "left",
         text: "This application was created using the open source ChariTi framework, freely available at:\nhttp://chariti.mobi",
-        id: "__alloyId224"
+        id: "__alloyId212"
     });
-    $.__views.container.add($.__views.__alloyId224);
+    $.__views.container.add($.__views.__alloyId212);
     $.__views.chariti = Ti.UI.createLabel({
         color: "#666",
         font: {
