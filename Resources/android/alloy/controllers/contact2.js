@@ -105,10 +105,16 @@ function Controller() {
         id: "officetxt"
     });
     $.__views.container.add($.__views.officetxt);
+    $.__views.commonqs = Ti.UI.createTableView({
+        scrollsToTop: false,
+        id: "commonqs"
+    });
+    $.__views.container.add($.__views.commonqs);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    var APP = require("core");
     var CONFIG = arguments[0];
+    var APP = require("core");
+    require("ti.cloud");
     APP.log("debug", "text | " + JSON.stringify(CONFIG));
     $.heading.text = CONFIG.heading;
     $.heading.color = APP.Settings.colors.hsb.primary.b > 70 ? "#000" : APP.Settings.colors.primary;

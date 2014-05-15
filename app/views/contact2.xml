@@ -10,6 +10,7 @@
 			<Button id="emailbtn" label="email">Questions?</Button>
 			<Label id="phonetxt">262-215-5758</Label>
 			<Label id="officetxt">Office:Union 325</Label>
+			<TableView id="commonqs" />
 		</ScrollView>
 	</View>
 </Alloy>

@@ -4,9 +4,9 @@
  * @class Controllers.text
  * @uses core
  */
-var APP = require("core");
-
 var CONFIG = arguments[0];
+var APP = require("core");
+var Cloud = require("ti.cloud");
 
 APP.log("debug", "text | " + JSON.stringify(CONFIG));
 
@@ -32,7 +32,7 @@ if(CONFIG.isChild === true) {
 	}
 }
 
-/*
+//need actual phone for otherwise comment out
 $.emailbtn.addEventListner("click",function(){
 	
 var emailDialog = Ti.UI.createEmailDialog()
@@ -41,4 +41,3 @@ emailDialog.toRecipients = ['sigmachilambdachi@gmail.com'];
 emailDialog.messageBody = '<b>Sent from Mobile App</b>';
 emailDialog.open();
 )};
-*/
